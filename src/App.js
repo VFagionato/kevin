@@ -71,8 +71,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>O Kevin não é demitido há</h1>
-        <h2>{text}</h2>
+        <h2>O Kevin foi demitido hoje?</h2>
+        <h1 style={{ color: 'red' }}>NÃO</h1>
+
+        <h4 style={{ marginBottom: '0' }}>O Kevin não é demitido há</h4>
+        <h5>{text}</h5>
       </header>
     </div>
   );
